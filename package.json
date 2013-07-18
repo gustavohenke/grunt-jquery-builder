@@ -1,0 +1,40 @@
+{
+    "name": "grunt-jquery-builder",
+    "description": "Creates custom builds of jQuery using the jQuery Builder tool.",
+    "version": "0.1.0",
+    "author": {
+        "name": "Gustavo Henke",
+        "url":  "https://github.com/gustavohenke"
+    },
+    "repository": {
+        "type": "git",
+        "url":  "git://github.com/gustavohenke/grunt-jquery-builder.git"
+    },
+    "bugs": {
+        "url": "https://github.com/gustavohenke/grunt-jquery-builder/issues"
+    },
+    "keywords": [
+        "gruntplugin",
+        "jquery",
+        "custom",
+        "browser"
+    ],
+    "dependencies": {
+        "jquery-builder": "0.5.x"
+    },
+    "devDependencies": {
+        "grunt-contrib-jshint": "0.6.x",
+        "grunt-jscs-checker": ">=0.1.2",
+        "grunt-simple-mocha": "0.4.x",
+        "grunt-contrib-clean": "0.5.x"
+    },
+    "peerDependencies": {
+        "grunt": "0.4.x"
+    },
+    "engines": {
+        "node": ">=0.8.0"
+    },
+    "scripts": {
+        "test": "grunt default"
+    }
+}
