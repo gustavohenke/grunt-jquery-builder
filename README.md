@@ -1,5 +1,5 @@
 # grunt-jquery-builder [![Build Status](https://travis-ci.org/gustavohenke/grunt-jquery-builder.png?branch=master)](https://travis-ci.org/gustavohenke/grunt-jquery-builder)
-> Creates custom builds of jQuery using the [jQuery Builder tool](projects.jga.me/jquery-builder/)
+> Creates custom builds of jQuery using the [jQuery Builder tool](http://projects.jga.me/jquery-builder/)
 
 ## Getting started
 This plugin requires Grunt `~0.4.0`
