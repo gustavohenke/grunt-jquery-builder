@@ -3,7 +3,6 @@
     "requireSpaceAfterKeywords":            [ "if", "else", "for", "while", "do", "switch" ],
     "disallowSpaceAfterKeywords":           [],
     "requireSpacesInsideObjectBrackets":    "all",
-    "disallowQuotedKeysInObjects":          false,
     "disallowSpaceAfterObjectKeys":         true,
     "disallowLeftStickedOperators":         [ "?", "+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<=" ],
     "requireRightStickedOperators":         [ "!" ],
@@ -14,6 +13,13 @@
     "disallowMultipleLineBreaks":           true,
     "disallowKeywordsOnNewLine":            [ "else" ],
     "requireKeywordsOnNewLine":             [],
+    "requireSpacesInsideArrayBrackets":     "all",
+    "requireSpacesInFunctionExpression": {
+        "beforeOpeningCurlyBrace": true
+    },
+    "disallowSpacesInFunctionExpression": {
+        "beforeOpeningRoundBrace": true
+    },
     "validateJSDoc": {
         "checkParamNames":      true,
         "checkRedundantParams": true,
