@@ -24,7 +24,7 @@
     },
     "devDependencies": {
         "grunt-contrib-jshint": "0.6.x",
-        "grunt-jscs-checker": ">=0.1.2",
+        "grunt-jscs-checker": "~0.1.7",
         "grunt-simple-mocha": "0.4.x",
         "grunt-contrib-clean": "0.5.x"
     },
