@@ -1,4 +1,4 @@
-# grunt-jquery-builder [![Build Status](https://travis-ci.org/gustavohenke/grunt-jquery-builder.png?branch=master)](https://travis-ci.org/gustavohenke/grunt-jquery-builder)
+# grunt-jquery-builder [![Build Status](https://travis-ci.org/gustavohenke/grunt-jquery-builder.png?branch=master)](https://travis-ci.org/gustavohenke/grunt-jquery-builder) [![Dependency Status](https://gemnasium.com/gustavohenke/grunt-jquery-builder.png)](https://gemnasium.com/gustavohenke/grunt-jquery-builder)
 > Creates custom builds of jQuery using the [jQuery Builder tool](http://projects.jga.me/jquery-builder/)
 
 ## Getting started
