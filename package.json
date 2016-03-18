@@ -18,7 +18,7 @@
         "browser"
     ],
     "dependencies": {
-        "jquery-builder": "0.5.x"
+        "jquery-builder": "0.7.x"
     },
     "devDependencies": {
         "grunt-contrib-jshint": "0.6.x",
