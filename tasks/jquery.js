@@ -54,7 +54,7 @@ module.exports = function( grunt ) {
                 var path = "";
 
                 // Simple regex to discover if we reached an github 404 page
-                var gh404 = /^<!DOCTYPE html>/i;
+                var gh404 = /^Not found$/i;
 
                 i++;
                 result = String( result );
