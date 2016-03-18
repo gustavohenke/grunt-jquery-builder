@@ -6,6 +6,7 @@
         "name": "Gustavo Henke",
         "url":  "https://github.com/gustavohenke"
     },
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url":  "git://github.com/gustavohenke/grunt-jquery-builder.git"
