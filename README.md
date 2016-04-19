@@ -1,7 +1,5 @@
 # grunt-jquery-builder
 [![Build Status](https://travis-ci.org/gustavohenke/grunt-jquery-builder.png?branch=master)](https://travis-ci.org/gustavohenke/grunt-jquery-builder)
-[![Dependency Status](https://gemnasium.com/gustavohenke/grunt-jquery-builder.png)](https://gemnasium.com/gustavohenke/grunt-jquery-builder)
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/gustavohenke/grunt-jquery-builder/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 > Creates custom builds of jQuery using the [jQuery Builder tool](http://projects.jga.me/jquery-builder/)
 
 ## Getting started
