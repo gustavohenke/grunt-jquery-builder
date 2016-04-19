@@ -1,7 +1,6 @@
 module.exports = function( grunt ) {
     "use strict";
 
-    var _ = grunt.util._;
     var defaults = {
         minify: true,
 
@@ -12,7 +11,7 @@ module.exports = function( grunt ) {
 
     function normalize( arr ) {
         var obj = {};
-        _.unique( arr ).forEach(function( ver ) {
+        arr.forEach(function( ver ) {
             obj[ ver ] = "";
         });
 
@@ -36,7 +35,7 @@ module.exports = function( grunt ) {
         }
 
         // Cache the size of the object, so no need to recalculate every callback
-        size = _.size( versions );
+        size = Object.keys( versions ).length;
 
         if ( size === 0 ) {
             grunt.log.writeln( "No jQuery versions found" );
